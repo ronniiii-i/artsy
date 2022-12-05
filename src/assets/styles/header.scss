@@ -1,0 +1,28 @@
+header{
+    padding: 2vw 5vw;
+    a.logo{
+        h3{
+            font-family: $serif;
+        }
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    nav{
+        ul{
+            li{
+                display: inline-block;
+                margin: .5rem;
+                a{
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
+    .icons{
+        svg{
+            width: 28px;
+            // height: 28px;
+        }
+    }
+}

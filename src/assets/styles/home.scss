@@ -1,0 +1,46 @@
+$position-1: translateX(-0.9%);
+$position-2: translateX(-18.3%);
+$position-3: translateX(-40.6%);
+$position-4: translateX(-61.7%);
+$position-5: translateX(-89.05%);
+
+#hero{
+    h1,p{
+        width: 100%;
+        text-align: center;
+        max-width: 38rem;
+        margin: .8rem auto;
+        line-height: 156.7%;
+    }
+    p{
+        max-width: 34rem;
+    }
+    .carousel{
+        padding: 3vw 2vw;
+        .card{
+            width: 20%;
+            overflow: hidden;
+            flex-shrink: 0;
+            // outline: 2px solid green;
+            img{
+                width: 930%;
+                transition: linear .8s;
+                &.img1{
+                    transform: $position-1;
+                }
+                &.img2{
+                    transform: $position-2;
+                }
+                &.img3{
+                    transform: $position-3;
+                }
+                &.img4{
+                    transform: $position-4;
+                }
+                &.img5{
+                    transform: $position-5;
+                }
+            }
+        }
+    }
+}
