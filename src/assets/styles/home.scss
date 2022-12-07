@@ -44,3 +44,22 @@ $position-5: translateX(-89.05%);
         }
     }
 }
+#featured{
+    padding: 3vw;
+    h3{
+        font-weight: 500;
+        padding-block: 20px;
+    }
+    hr{
+        border: none;
+        border-bottom: 1px solid #333333;
+    }
+    .products{
+        padding-block: 30px;
+        gap: 1rem;
+        &:nth-child(5){
+            flex-direction: row-reverse;
+            // background-color: yellow;
+        }
+    }
+}
