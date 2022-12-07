@@ -1,4 +1,4 @@
-import { FiArrowRight } from 'react-icons/fi'
+import { BsArrowRight } from 'react-icons/bs'
 import fp from '../../assets/images/fp.png'
 import fp2 from '../../assets/images/fp2.png'
 import fp3 from '../../assets/images/fp3.png'
@@ -8,7 +8,6 @@ function Featured() {
     return (
         <section id="featured">
             <h3>Featured Products</h3>
-            <hr />
             <div className="products flex align-center justify-between full-width">
                 <div className="image">
                     <img src={fp} alt="Featured Product" />
@@ -18,14 +17,15 @@ function Featured() {
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor pur
                     </p>
-                    <div className="bottom flex full-width align-center">
-                        <img src={creators} alt="creators" />
-                        <p>64 major creators</p>
-                        <FiArrowRight />
+                    <div className="bottom flex full-width align-center justify-between">
+                        <div className="inner flex full-width align-center">
+                            <img src={creators} alt="creators" />
+                            <p>64 major creators</p>
+                        </div>
+                        <BsArrowRight />
                     </div>
                 </div>
             </div>
-            <hr />
             <div className="products flex align-center justify-between full-width">
                 <div className="image">
                     <img src={fp2} alt="Featured Product" />
@@ -36,13 +36,14 @@ function Featured() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor pur
                     </p>
                     <div className="bottom flex full-width align-center">
-                        <img src={creators} alt="creators" />
-                        <p>64 major creators</p>
-                        <FiArrowRight />
+                        <div className="inner flex full-width align-center">
+                            <img src={creators} alt="creators" />
+                            <p>64 major creators</p>
+                        </div>
+                        <BsArrowRight />
                     </div>
                 </div>
             </div>
-            <hr />
             <div className="products flex align-center justify-between full-width">
                 <div className="image">
                     <img src={fp3} alt="Featured Product" />
@@ -53,9 +54,11 @@ function Featured() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor pur
                     </p>
                     <div className="bottom flex full-width align-center">
-                        <img src={creators} alt="creators" />
-                        <p>64 major creators</p>
-                        <FiArrowRight />
+                        <div className="inner flex full-width align-center">
+                            <img src={creators} alt="creators" />
+                            <p>64 major creators</p>
+                        </div>
+                        <BsArrowRight />
                     </div>
                 </div>
             </div>
